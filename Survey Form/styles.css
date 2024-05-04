@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000033; /* Dark blue color for the body to represent night sky */
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #000080; /* Navy blue color for the header to represent deep sea */
+    color: white;
+    transition: all 0.5s ease;
+}
+
+header i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+/* Section styles */
+section {
+    text-align: center;
+    padding: 20px;
+    background-color: #191970; /* Midnight blue color for the section to represent late night sky */
+    transition: all 0.5s ease;
+}
+
+/* Form styles */
+#survey-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000080; /* Navy blue color for the form to represent deep sea */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1);
+    transition: all 0.5s ease;
+}
+
+/* Input and label styles */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #87CEEB; /* Sky blue color for the labels to represent early morning sky */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #87CEEB; /* Sky blue color for the input borders to represent early morning sky */
+    border-radius: 4px;
+    background-color: #000033; /* Dark blue color for the input backgrounds to represent night sky */
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+select:hover,
+textarea:hover {
+    border-color: #1E90FF; /* Deep sky blue color for the hover effect */
+}
+
+/* Radio and checkbox styles */
+fieldset {
+    margin-bottom: 15px;
+}
+
+/* Textarea styles */
+textarea {
+    resize: vertical;
+}
+
+/* Submit button styles */
+#submit {
+    background-color: #000080; /* Navy blue color for the submit button to represent deep sea */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit:hover {
+    background-color: #87CEEB; /* Sky blue color for the submit button hover to represent early morning sky */
+}
+
+/* Responsive styles */
+@media screen and (max-width: 600px) {
+    #survey-form {
+        padding: 10px;
+    }
+}
