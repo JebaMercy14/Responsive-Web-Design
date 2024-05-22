@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#main {
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+#title {
+  text-align: center;
+  color: #333;
+}
+
+#img-div {
+  text-align: center; 
+}
+
+#image {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  border-radius: 20px; 
+  margin: 0 auto; 
+}
+
+
+
+#img-caption {
+  margin-top: 10px;
+}
+
+#tribute-info {
+  text-align: left;
+}
+
+#timeline {
+  list-style-type: none;
+  position: relative;
+  padding-left: 50px;
+}
+
+#timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #333;
+  left: 40px;
+}
+
+#timeline li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+#timeline li::before {
+  content: '\f001'; 
+  font-family: 'Font Awesome 5 Free'; 
+  font-weight: 900; 
+  position: absolute;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid #333;
+}
+
+.year {
+  font-weight: bold;
+  color: #333;
+}
+
+#tribute-link {
+  display: block;
+  width: 200px;
+  height: 50px;
+  background: #333;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  text-decoration: none;
+  margin: 20px auto;
+  border-radius: 3px;
+}
+
+#tribute-link:hover {
+  background: #444;
+}
+
+/* Add animation */
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+@import url('https://path-to-your-font/Kommisar.ttf');
+ .header {
+      background-color: rgba(51, 51, 51, 0.5);
+      color: black;
+      text-align: center;
+      padding: 10px;
+      font-family: 'Kommisar';
+
+    }
+  .header img {
+      height: 3em; 
+      margin-left: 0px; 
+
+    }
+
+.fa-music {
+      font-size: 0.5em; /* Adjust the size of the icon as needed */
+      margin-right: 10px; /* Add some space between the icon and the text */
+    }
+
